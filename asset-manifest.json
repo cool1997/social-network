@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cool1997/social-network/static/css/main.ce3b3fa0.chunk.css",
-    "main.js": "/cool1997/social-network/static/js/main.dc1c26f6.chunk.js",
-    "main.js.map": "/cool1997/social-network/static/js/main.dc1c26f6.chunk.js.map",
+    "main.js": "/cool1997/social-network/static/js/main.a754a12e.chunk.js",
+    "main.js.map": "/cool1997/social-network/static/js/main.a754a12e.chunk.js.map",
     "runtime-main.js": "/cool1997/social-network/static/js/runtime-main.7a952a0f.js",
     "runtime-main.js.map": "/cool1997/social-network/static/js/runtime-main.7a952a0f.js.map",
     "static/js/2.c6387ffe.chunk.js": "/cool1997/social-network/static/js/2.c6387ffe.chunk.js",
@@ -19,7 +19,7 @@
     "static/js/6.d73973b9.chunk.js": "/cool1997/social-network/static/js/6.d73973b9.chunk.js",
     "static/js/6.d73973b9.chunk.js.map": "/cool1997/social-network/static/js/6.d73973b9.chunk.js.map",
     "index.html": "/cool1997/social-network/index.html",
-    "precache-manifest.65b25faae7d0d49f8fbf82e7e286e425.js": "/cool1997/social-network/precache-manifest.65b25faae7d0d49f8fbf82e7e286e425.js",
+    "precache-manifest.b0fa6fa9b73d6c8f556693cb249eb2b4.js": "/cool1997/social-network/precache-manifest.b0fa6fa9b73d6c8f556693cb249eb2b4.js",
     "service-worker.js": "/cool1997/social-network/service-worker.js",
     "static/css/4.a0b39b22.chunk.css.map": "/cool1997/social-network/static/css/4.a0b39b22.chunk.css.map",
     "static/css/5.9fe9bae5.chunk.css.map": "/cool1997/social-network/static/css/5.9fe9bae5.chunk.css.map",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.7a952a0f.js",
     "static/js/3.a0f5f023.chunk.js",
     "static/css/main.ce3b3fa0.chunk.css",
-    "static/js/main.dc1c26f6.chunk.js"
+    "static/js/main.a754a12e.chunk.js"
   ]
 }

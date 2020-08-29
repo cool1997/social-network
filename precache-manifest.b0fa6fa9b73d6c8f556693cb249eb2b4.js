@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a961c66667d4e03f4b478622b063555",
+    "revision": "c2676da186b157627cb1c410578037f7",
     "url": "/cool1997/social-network/index.html"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cool1997/social-network/static/css/6.c31f7c1f.chunk.css"
   },
   {
-    "revision": "8b81286dbd2e7e64d1b9",
+    "revision": "77f7b9ad720c5a126e73",
     "url": "/cool1997/social-network/static/css/main.ce3b3fa0.chunk.css"
   },
   {
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cool1997/social-network/static/js/6.d73973b9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8b81286dbd2e7e64d1b9",
-    "url": "/cool1997/social-network/static/js/main.dc1c26f6.chunk.js"
+    "revision": "77f7b9ad720c5a126e73",
+    "url": "/cool1997/social-network/static/js/main.a754a12e.chunk.js"
   },
   {
     "revision": "6d9971509898c6512c82",
