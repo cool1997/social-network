@@ -1,6 +1,6 @@
 import React, {lazy} from 'react'
 import styles from './App.module.scss'
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import {HashRouter, Route, Switch} from 'react-router-dom'
 import {withSuspense} from '../../hoc/withSuspense'
 import {Provider} from 'react-redux'
 import store from '../../redux/store'
@@ -17,7 +17,7 @@ const Users = lazy(() => import('../Users/Users-container'))
 
 const App = (props) => {
   return (
-    <BrowserRouter>
+    <HashRouter basename={`https://github.com/cool1997/social-network`}>
       <Provider store={store}>
         <div className={`${styles.App}`} id='App' >
 
@@ -50,7 +50,7 @@ const App = (props) => {
           </footer>
         </div>
       </Provider>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
