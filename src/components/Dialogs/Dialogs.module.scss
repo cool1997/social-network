@@ -1,0 +1,11 @@
+.Dialogs {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  min-height: 100%;
+}
+
+.messages {
+  display: grid;
+  align-content: flex-end;
+}

@@ -1,0 +1,24 @@
+.Profile {
+  display: grid;
+  grid-gap: 20px;
+
+  grid-template-rows: (300px auto);
+  grid-template: 
+  "info    info" 260px
+  "...    posts" 200px
+  "...     posts" 
+  / 1fr    2fr;
+}
+
+.info {
+  grid-area: info;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: (1fr 2fr);
+}
+
+.posts {
+  grid-area: posts;
+  display: grid;
+  grid-gap: 30px;
+}

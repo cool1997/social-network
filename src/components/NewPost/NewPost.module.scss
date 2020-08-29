@@ -1,0 +1,42 @@
+.NewPost {
+  display: grid;
+  grid-gap: 20px;
+
+  & > [error] ~ .btn{
+    display: none;
+  }
+}
+
+.text {
+  outline: none;
+  border: 2px solid var(--middle_color);
+  border-radius: 10px;
+  background-color: var(--light_color);
+  color: var(--main_font_color);
+  font-size: 20px;
+  padding: 0 10px;
+
+  &:active,
+  &:focus {
+    border: 2px solid var(--active_color);
+  }
+
+  & ~ span {
+    border-radius: 10px;
+    background-color: var(--accent_color);
+    color: var(--contrast_font_color);
+    padding: 5px 50px;
+    font-weight: 700;
+    justify-self: end;
+  }
+}
+
+.btn {
+  background-color: var(--btn_color);
+  color: var(--contrast_font_color);
+  font-weight: 700;
+  justify-self: end;
+  padding: 5px 50px;
+  border: none;
+  border-radius: 10px;
+}

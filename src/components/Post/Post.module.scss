@@ -1,0 +1,30 @@
+.Post {
+  display: grid;
+  margin-bottom: 20px;
+  grid-template-columns: (1fr auto);
+  grid-gap: 10px;
+}
+
+.text {
+  min-height: 50px;
+  border-radius: 10px;
+  background-color: var(--light_color);
+  padding-left: 10px;
+  color: var(--main_font_color);
+  border: 2px solid var(--middle_color);
+}
+
+.count {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  border: 2px solid var(--middle_color);
+  border-radius: 50%;
+  background-color: var(--light_color);
+  place-self: center center;
+  text-align: center;
+  line-height: 26px;
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--main_font_color);
+}

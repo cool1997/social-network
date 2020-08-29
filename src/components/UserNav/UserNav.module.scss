@@ -1,0 +1,48 @@
+.UserNav {
+  height: 100%;
+  margin-left: auto;
+}
+
+.link {
+  color: var(--main_font_color);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+
+  height: 100%;
+  margin-right: -5vw;
+  padding-right: 5vw;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    background-color: var(--accent_color);
+  }
+}
+
+.active {
+  background-color: var(--accent_color);
+}
+
+.text {
+  margin-left: auto;
+}
+
+.wrapper {
+  display: flex;
+  height: 100%;
+}
+
+.logout {
+  height: 100%;
+  padding: 0 10px;
+  background-color: transparent;
+  border: none;
+  border-right: 2px solid black;
+  cursor: pointer;
+
+  &:hover {
+    font-weight: 700;
+  }
+}

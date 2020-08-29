@@ -1,0 +1,57 @@
+.App {
+  background-color: var(--theme_color);
+  min-height: 100vh;
+
+  display: grid;
+  grid-template: 
+  "header" 70px
+  "wrapper" 1fr
+  "footer" 150px
+  /1fr;
+}
+
+.header {
+  grid-area: header;
+  
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  grid-template-rows: 70px;
+  align-items: center;
+
+  padding: 0 5vw;
+
+  background-color: var(--primary_color);
+}
+
+.content {
+  width: 90vw;
+  // margin-left: calc(100vw - 100%);
+  // margin-right: 0;
+  margin: 0 auto;
+
+  grid-area: wrapper;
+  
+  display: grid;
+  grid-template: 
+  "nav main" 
+  /1fr 5fr;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.main {
+  grid-area: main;
+  
+  background-color: var(--theme_color);
+
+  padding: 20px;
+}
+
+.footer {
+  grid-area: footer;
+  min-height: 100%;
+  background-color: var(--dark_color);
+}
+

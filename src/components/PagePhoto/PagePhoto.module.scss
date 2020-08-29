@@ -1,0 +1,18 @@
+.PagePhoto {
+  & .mainPhoto {
+    margin-bottom: 20px;
+  }
+  & .selectBtn {
+    display: none;
+  }
+  & .selectBtnLabel {
+      display: block;
+      cursor: pointer;
+      background-color: var(--btn_color);
+      color: var(--contrast_font_color);
+      border-radius: 10px;
+      font-weight: 700;
+      padding: 5px auto;
+      text-align: center;
+  }
+}

@@ -1,0 +1,20 @@
+.User {
+  display: grid;
+  grid-template: 
+  "photo aboutUser" 100px
+  "btn   aboutUser"
+  /100px 1fr;
+  grid-gap: 10px;
+}
+
+.photo {
+  grid-area: photo;
+}
+
+.btn {
+  grid-area: btn;
+}
+
+.aboutUser {
+  grid-area: aboutUser;
+}
